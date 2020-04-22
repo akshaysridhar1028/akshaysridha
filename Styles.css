@@ -1,0 +1,110 @@
+body {
+  background-color: #000;
+  color:#fff;
+}
+
+h1{
+  text-align: center;
+  background-color: #ffd933;
+  border-radius: 40%;
+}
+
+.navbar {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+/* .navbar-brand{
+  font-family: "Montez";
+  font-size: 2.5rem;
+  color: #ffd933 !important;
+} */
+.abt {
+  margin-top: 1rem;
+}
+
+.vid {
+  border: 1px solid #ffd933;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+a.nlink {
+  color: #ffd933 !important ;
+  font-size: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem;
+  padding-left: .5rem;
+}
+
+.navbar-nav li.active > a{
+  color: #fff !important;
+}
+
+.nlink:hover {
+  color: #fff !important;
+}
+
+/* HOme */
+.homediv {
+  background-color: #ffd933;
+  margin-bottom: 1rem;
+}
+
+.homediv {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.footer-list {
+  /* min-width: 696px; */
+  list-style: none;
+  padding-top: 20px;
+}
+
+ul.footer-list li {
+  display: inline;
+  padding: 2rem;
+}
+
+.social-media {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.copyrights {
+  position: absolute;
+  left: 20%;
+}
+
+/* .smedia{
+  position: absolute;
+  left: 30%;
+} */
+/* Contact form */
+#contact {
+  /* max-width: 1170px; */
+  /* margin: auto 30% auto; */
+  margin-left: 30%;
+  margin-bottom: 3rem !important;
+  padding: 0;
+}
+
+.btn-custom {
+  background-color: #ffd933;
+  position: absolute;
+  margin-bottom: 3rem !important;
+  left: 30%;
+}
